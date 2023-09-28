@@ -22,7 +22,7 @@ router.post('/create-order',shopController.postOrders)
 
 router.get('/orders', shopController.getOrders);
 
-router.get('/checkout', shopController.getCheckout);
+// router.get('/checkout', shopController.getCheckout);
 
 // /create-order
 module.exports = router;
